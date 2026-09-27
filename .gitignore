@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.DS_Store
+
+# Local dataset
+/data/*.csv
+
+# Generated model artifacts (remove these two lines if you decide to version the models)
+# /models/*.pkl

@@ -1,0 +1,23 @@
+{
+  "target": "profit_margin",
+  "features": [
+    "discount_value",
+    "unit_revenue",
+    "category"
+  ],
+  "discount_filter": "> 0",
+  "test_size": 0.2,
+  "random_state": 42,
+  "metrics": {
+    "linear_regression": {
+      "r2": 0.6625893853010894,
+      "rmse": 25.942245217006004,
+      "mae": 13.597054184381689
+    },
+    "gradient_boosting": {
+      "r2": 0.7765183951468084,
+      "rmse": 21.112957833324636,
+      "mae": 9.321815551444173
+    }
+  }
+}
